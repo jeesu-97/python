@@ -14,7 +14,6 @@ def list_df(path, end_string):
         if i.endswith(end_string):
             file_list_2.append(i)
 
-
     ## case2
     file_list_3 = [i for i in file_list if i.endswith(end_string)]
     print(file_list_2 == file_list_3)
